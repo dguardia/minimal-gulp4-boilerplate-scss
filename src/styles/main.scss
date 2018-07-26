@@ -1,0 +1,12 @@
+$body-bg: green;
+body{
+  background: $body-bg;
+  a{
+    color: blue;
+  }
+  .cat-img{
+    img{
+      width: 400px;
+    }
+  }
+}
