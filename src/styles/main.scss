@@ -1,12 +1,16 @@
 $body-bg: green;
 body{
-  background: $body-bg;
-  a{
-    color: blue;
+  .inner-block{
+    margin: 10px 0;
   }
-  .cat-img{
-    img{
-      width: 400px;
-    }
+  .card{
+    margin: 0 auto;
+  }
+  .card-title{
+    text-transform: uppercase;
+  }
+  .card-text-city,
+  .card-text-state{
+    text-transform: uppercase;
   }
 }
